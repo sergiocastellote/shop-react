@@ -1,0 +1,109 @@
+{
+  "books": [
+    {
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/81aKrQB-JnL.jpg",
+      "date": "1925",
+      "kind": "novel"
+    },
+    {
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/81r8JazFJIL.jpg",
+      "date": "1960",
+      "kind": "novel"
+    },
+    {
+      "title": "1984",
+      "author": "George Orwell",
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/71zvj5jBN9L.jpg",
+      "date": "1949",
+      "kind": "novel"
+    },
+    {
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/71hc+G%2BM17L.jpg",
+      "date": "1951",
+      "kind": "novel"
+    },
+    {
+      "title": "The Diary of a Young Girl",
+      "author": "Anne Frank",
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51awPpG7JBL._SX327_BO1,204,203,200_.jpg",
+      "date": "1947",
+      "kind": "memoir"
+    },
+    {
+      "title": "The Lord of the Rings",
+      "author": "J.R.R. Tolkien",
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/91W9laHr1tL.jpg",
+      "date": "1954-1955",
+      "kind": "novel"
+    },
+    {
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/91TdiTJ7DkL.jpg",
+      "date": "1813",
+      "kind": "novel"
+    },
+    {
+      "title": "The Adventures of Huckleberry Finn",
+      "author": "Mark Twain",
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/71OjJQ5Tr5L.jpg",
+      "date": "1884",
+      "kind": "novel"
+    },
+    {
+      "title": "The Picture of Dorian Gray",
+      "author": "Oscar Wilde",
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/91pz4K6jePL.jpg",
+      "date": "1890",
+      "kind": "novel"
+    },
+    {
+      "title": "The Adventures of Sherlock Holmes",
+      "author": "Arthur Conan Doyle",
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/81tp0EjKzHL.jpg",
+      "date": "1892",
+      "kind": "short stories"
+    },
+    {
+      "title": "The Little Prince",
+      "author": "Antoine de Saint-Exupéry",
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/81UW5k8rM+L.jpg",
+      "date": "1943",
+      "kind": "novella"
+    },
+    {
+      "title": "The Color Purple",
+      "author": "Alice Walker",
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/91FKF+rMOSL.jpg",
+      "date": "1982",
+      "kind": "novel"
+    },
+    {
+      "title": "The Handmaid's Tale",
+      "author": "Margaret Atwood",
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/81X9mU6xg2L.jpg",
+      "date": "1985",
+      "kind": "novel"
+    },
+    {
+      "title": "One Hundred Years of Solitude",
+      "author": "Gabriel García Márquez",
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/81seJb+oLRL.jpg",
+      "date": "1967",
+      "kind": "novel"
+    },
+    {
+      "title": "The Stranger",
+      "author": "Albert Camus",
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/71HuoEGaLnL.jpg",
+      "date": "1942",
+      "kind": "novel"
+    }
+  ]
+}

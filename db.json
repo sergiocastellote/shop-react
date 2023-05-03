@@ -1,6 +1,7 @@
 {
   "books": [
     {
+      "id": "1",
       "title": "The Great Gatsby",
       "author": "F. Scott Fitzgerald",
       "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/81aKrQB-JnL.jpg",
@@ -8,6 +9,7 @@
       "kind": "novel"
     },
     {
+      "id": "2",
       "title": "To Kill a Mockingbird",
       "author": "Harper Lee",
       "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/81r8JazFJIL.jpg",
@@ -15,6 +17,7 @@
       "kind": "novel"
     },
     {
+      "id": "3",
       "title": "1984",
       "author": "George Orwell",
       "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/71zvj5jBN9L.jpg",
@@ -22,6 +25,7 @@
       "kind": "novel"
     },
     {
+      "id": "4",
       "title": "The Catcher in the Rye",
       "author": "J.D. Salinger",
       "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/71hc+G%2BM17L.jpg",
@@ -29,6 +33,7 @@
       "kind": "novel"
     },
     {
+      "id": "5",
       "title": "The Diary of a Young Girl",
       "author": "Anne Frank",
       "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51awPpG7JBL._SX327_BO1,204,203,200_.jpg",
@@ -36,6 +41,7 @@
       "kind": "memoir"
     },
     {
+      "id": "6",
       "title": "The Lord of the Rings",
       "author": "J.R.R. Tolkien",
       "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/91W9laHr1tL.jpg",
@@ -43,6 +49,7 @@
       "kind": "novel"
     },
     {
+      "id": "7",
       "title": "Pride and Prejudice",
       "author": "Jane Austen",
       "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/91TdiTJ7DkL.jpg",
@@ -50,6 +57,7 @@
       "kind": "novel"
     },
     {
+      "id": "8",
       "title": "The Adventures of Huckleberry Finn",
       "author": "Mark Twain",
       "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/71OjJQ5Tr5L.jpg",
@@ -57,6 +65,7 @@
       "kind": "novel"
     },
     {
+      "id": "9",
       "title": "The Picture of Dorian Gray",
       "author": "Oscar Wilde",
       "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/91pz4K6jePL.jpg",
@@ -64,6 +73,7 @@
       "kind": "novel"
     },
     {
+      "id": "10",
       "title": "The Adventures of Sherlock Holmes",
       "author": "Arthur Conan Doyle",
       "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/81tp0EjKzHL.jpg",
@@ -71,6 +81,7 @@
       "kind": "short stories"
     },
     {
+      "id": "11",
       "title": "The Little Prince",
       "author": "Antoine de Saint-Exupéry",
       "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/81UW5k8rM+L.jpg",
@@ -78,6 +89,7 @@
       "kind": "novella"
     },
     {
+      "id": "12",
       "title": "The Color Purple",
       "author": "Alice Walker",
       "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/91FKF+rMOSL.jpg",
@@ -85,6 +97,7 @@
       "kind": "novel"
     },
     {
+      "id": "13",
       "title": "The Handmaid's Tale",
       "author": "Margaret Atwood",
       "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/81X9mU6xg2L.jpg",
@@ -92,6 +105,7 @@
       "kind": "novel"
     },
     {
+      "id": "14",
       "title": "One Hundred Years of Solitude",
       "author": "Gabriel García Márquez",
       "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/81seJb+oLRL.jpg",
@@ -99,6 +113,7 @@
       "kind": "novel"
     },
     {
+      "id": "15",
       "title": "The Stranger",
       "author": "Albert Camus",
       "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/71HuoEGaLnL.jpg",

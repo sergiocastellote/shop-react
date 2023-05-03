@@ -1,5 +1,6 @@
 import React from 'react';
 import './index.css';
+import '@capgeminiuk/dcx-react-library/dist/dcx-react-library.css';
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import List from './views/list';

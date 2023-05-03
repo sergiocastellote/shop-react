@@ -2,8 +2,9 @@ import { useParams } from 'react-router-dom';
 import { getById } from '../services/crud-service';
 import { BOOKS } from '../constans/urls';
 import { useEffect, useState } from 'react';
-import './detail.css';
 import { IBook, InitialBook } from '../interfaces/book.interface';
+import { Details } from '@capgeminiuk/dcx-react-library';
+import './detail.css';
 
 function Detail() {
   const { id } = useParams();
@@ -19,7 +20,19 @@ function Detail() {
     <section className="section_detail">
       <h1>Detail</h1>
       <p>id: {id}</p>
-      <p>data: {data.title}</p>
+      <p>title: {data.title}</p>
+      <p>author: {data.author}</p>
+      <p>date: {data.date}</p>
+      <p>kind: {data.kind}</p>
+      <img src={data.imageUrl} alt="" referrerPolicy="no-referrer" />
+      <Details
+        summary="Descripción"
+        detailsClassName="govuk-details"
+        summaryClassName="govuk-details__summary"
+        summaryTextClassName="govuk-details__summary-text"
+        detailsTextClassName="govuk-details__text">
+        {data.description}
+      </Details>
     </section>
   );
 }

@@ -16,14 +16,31 @@ function List() {
     get(BOOKS).then((response) => {
       const newData = response.data.map((item: any) => ({...item, actions: 
           <button className="btn btn-danger" name="goToDetail">
-            Go To Detail
+            Ir al detalle
           </button>
        }))
       setData(newData);
     });
   }, []);
 
-  return <>{ data.length > 0 ?  <Table dataSource={data} handleCellClick={handleCellClick}/> : null}</>;
+  return <>{ data.length > 0 ?  
+    <div>
+      Introduce texto para realizar búsqueda:
+<Table dataSource={data} 
+  withSearch={true}
+  tableClassName="table" 
+  theadClassName="thead" 
+  trClassName="header-row" 
+  thClassName="th" 
+  tbodyClassName="tbody" 
+  tdClassName="td" 
+  selectedRowClassName="trSelected"
+  columnsToOmit={['id', 'imageUrl']}
+  customHeaderLabels={['Título', 'Autor', 'Año de publicación', 'Género', 'Decripción', '']}
+  handleCellClick={handleCellClick}/>
+    </div> 
+  : null}
+</>;
 }
 
 export default List

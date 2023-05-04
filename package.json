@@ -13,9 +13,12 @@
   "dependencies": {
     "@capgeminiuk/dcx-react-library": "^0.8.0-alpha-1",
     "axios": "^1.4.0",
+    "bootstrap": "^5.2.3",
     "json-server": "^0.17.3",
     "react": "^18.2.0",
-    "react-router-dom": "^6.11.0"
+    "react-bootstrap": "^2.7.4",
+    "react-router-dom": "^6.11.0",
+    "sass": "^1.62.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",

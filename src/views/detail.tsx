@@ -18,21 +18,26 @@ function Detail() {
 
   return (
     <section className="section_detail">
-      <h1>Detail</h1>
-      <p>id: {id}</p>
-      <p>title: {data.title}</p>
-      <p>author: {data.author}</p>
-      <p>date: {data.date}</p>
-      <p>kind: {data.kind}</p>
-      <img src={data.imageUrl} alt="" referrerPolicy="no-referrer" />
-      <Details
-        summary="Descripción"
-        detailsClassName="govuk-details"
-        summaryClassName="govuk-details__summary"
-        summaryTextClassName="govuk-details__summary-text"
-        detailsTextClassName="govuk-details__text">
-        {data.description}
-      </Details>
+      <div className="img_container">
+        <img className="img" src={data.imageUrl} alt="" referrerPolicy="no-referrer" />
+      </div>
+      <div className="txt_container">
+        <h1 className="title">{data.title}</h1>
+        <p>Autor: {data.author}</p>
+        <p>Fecha de publicación: {data.date}</p>
+        <p>Género: {data.kind}</p>
+        <p>Id: {id}</p>
+        <div className="details">
+          <Details
+            summary="Descripción"
+            detailsClassName="govuk-details"
+            summaryClassName="govuk-details__summary"
+            summaryTextClassName="govuk-details__summary-text"
+            detailsTextClassName="govuk-details__text">
+            {data.description}
+          </Details>
+        </div>
+      </div>
     </section>
   );
 }

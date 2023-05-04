@@ -1,2 +1,27 @@
 .section_detail {
+  margin-left: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+.img_container {
+  width: 300px;
+}
+
+.img {
+  max-width: 300px;
+  height: auto;
+}
+
+.txt_container {
+  max-width: 1000px;
+}
+
+.details {
+  width: 500px;
+}
+
+.title {
+  width: 100%;
 }
